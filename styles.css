@@ -206,7 +206,7 @@ footer .col-3 {
 
 /* Media Queries */
 /* Mobile */
-@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+@media only screen and (max-width: 767px) {
   body {
     height: auto;
     margin: 1em, 0;
