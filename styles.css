@@ -205,9 +205,9 @@ footer .col-3 {
   width: 100%;
 }
 
-.about-us .title {
+/* .about-us .title {
   margin: 2.25rem;
-}
+} */
 
 .about-us h2 {
   color: #FFF;
@@ -223,7 +223,7 @@ footer .col-3 {
 @media only screen and (max-width: 767px) {
   body {
     height: auto;
-    margin: 1em, 0;
+    margin: .5em, 0;
   }
 
   .hero .title {
