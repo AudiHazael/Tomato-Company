@@ -5,9 +5,21 @@ body {
   mix-blend-mode: hard-light;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* height: fit-content; */
+}
+
+header nav {
+  background: rgba(0, 0, 0, 0.638);
+  padding: 0;
+  margin: 0;
+}
+
+.hero .title {
+  padding-top: 5rem;
+}
+
+.carousel {
+  margin-top: -5rem;
 }
 
 a.navbar-brand {
@@ -106,6 +118,7 @@ p.subtitle {
   font-family: Inter;
   font-size: 12px;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .hero-button button:hover {
@@ -132,6 +145,7 @@ p.subtitle {
 
 .hero .row {
   margin-top: 6em;
+  margin-bottom: 3rem;
 }
 
 .hero .col-3 {
@@ -212,6 +226,14 @@ footer .col-3 {
     margin: 1em, 0;
   }
 
+  .hero .title {
+    padding-top: 2rem;
+  }
+
+  .carousel {
+    margin-top: -2rem;
+  }
+
   h1 {
     font-size: 28px;
   }
@@ -265,6 +287,7 @@ footer .col-3 {
   footer .col-3 {
     width: 100%;
     margin-bottom: 2em;
+    padding-left: 2rem;
   }
 
   .tomato-ketchup {
